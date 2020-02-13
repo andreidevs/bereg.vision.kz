@@ -1,0 +1,176 @@
+ErrorDocument 403 /page5148750.html
+ErrorDocument 404 /page5148750.html
+
+DirectoryIndex page4509753.html
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} /robots.txt
+RewriteCond "%{DOCUMENT_ROOT}/robots_%{HTTP_HOST}.txt" -f
+RewriteRule ^(.*)$ robots_%{HTTP_HOST}.txt [NC,L]
+RewriteRule ^ajetaifit$ page6739463.html [NC]
+RewriteRule ^ajetaifit/$ page6739463.html [NC]
+
+RewriteRule ^innotech$ page6701328.html [NC]
+RewriteRule ^innotech/$ page6701328.html [NC]
+
+RewriteRule ^vyshevseh$ page6611296.html [NC]
+RewriteRule ^vyshevseh/$ page6611296.html [NC]
+
+RewriteRule ^kontext$ page4551244.html [NC]
+RewriteRule ^kontext/$ page4551244.html [NC]
+
+RewriteRule ^createsite$ page4533221.html [NC]
+RewriteRule ^createsite/$ page4533221.html [NC]
+
+RewriteRule ^asistance$ page4884216.html [NC]
+RewriteRule ^asistance/$ page4884216.html [NC]
+
+RewriteRule ^shtampyipechati$ page5356158.html [NC]
+RewriteRule ^shtampyipechati/$ page5356158.html [NC]
+
+RewriteRule ^smm$ page5387586.html [NC]
+RewriteRule ^smm/$ page5387586.html [NC]
+
+RewriteRule ^business$ page5418263.html [NC]
+RewriteRule ^business/$ page5418263.html [NC]
+
+RewriteRule ^kassovyeapparaty$ page5319475.html [NC]
+RewriteRule ^kassovyeapparaty/$ page5319475.html [NC]
+
+RewriteRule ^setka$ page5639861.html [NC]
+RewriteRule ^setka/$ page5639861.html [NC]
+
+RewriteRule ^hotel$ page6082651.html [NC]
+RewriteRule ^hotel/$ page6082651.html [NC]
+
+RewriteRule ^ihelpkz$ page5228907.html [NC]
+RewriteRule ^ihelpkz/$ page5228907.html [NC]
+
+RewriteRule ^account$ page3760868.html [NC]
+RewriteRule ^account/$ page3760868.html [NC]
+
+RewriteRule ^house-market$ page5936539.html [NC]
+RewriteRule ^house-market/$ page5936539.html [NC]
+
+RewriteRule ^realizacijametalloprokata$ page6030358.html [NC]
+RewriteRule ^realizacijametalloprokata/$ page6030358.html [NC]
+
+RewriteRule ^kazsetka1$ page6083237.html [NC]
+RewriteRule ^kazsetka1/$ page6083237.html [NC]
+
+RewriteRule ^okfrank$ page3604684.html [NC]
+RewriteRule ^okfrank/$ page3604684.html [NC]
+
+RewriteRule ^okfrank_ru$ page3656408.html [NC]
+RewriteRule ^okfrank_ru/$ page3656408.html [NC]
+
+RewriteRule ^lebedevproduction$ page6289479.html [NC]
+RewriteRule ^lebedevproduction/$ page6289479.html [NC]
+
+RewriteRule ^sushiwok1$ page6335269.html [NC]
+RewriteRule ^sushiwok1/$ page6335269.html [NC]
+
+RewriteRule ^sushiwok2$ page6338394.html [NC]
+RewriteRule ^sushiwok2/$ page6338394.html [NC]
+
+RewriteRule ^sushiwok3$ page6338407.html [NC]
+RewriteRule ^sushiwok3/$ page6338407.html [NC]
+
+RewriteRule ^mainzhbi$ page6457375.html [NC]
+RewriteRule ^mainzhbi/$ page6457375.html [NC]
+
+RewriteRule ^zhbienergy$ page6498171.html [NC]
+RewriteRule ^zhbienergy/$ page6498171.html [NC]
+
+RewriteRule ^production$ page6503047.html [NC]
+RewriteRule ^production/$ page6503047.html [NC]
+
+RewriteRule ^uslugi$ page6503201.html [NC]
+RewriteRule ^uslugi/$ page6503201.html [NC]
+
+RewriteRule ^kolcakon$ page6511550.html [NC]
+RewriteRule ^kolcakon/$ page6511550.html [NC]
+
+RewriteRule ^lotki$ page6511657.html [NC]
+RewriteRule ^lotki/$ page6511657.html [NC]
+
+RewriteRule ^fundament$ page6511716.html [NC]
+RewriteRule ^fundament/$ page6511716.html [NC]
+
+RewriteRule ^opora$ page6512044.html [NC]
+RewriteRule ^opora/$ page6512044.html [NC]
+
+RewriteRule ^microhirurgiya$ page5702541.html [NC]
+RewriteRule ^microhirurgiya/$ page5702541.html [NC]
+
+RewriteRule ^metalloizdelya$ page6515697.html [NC]
+RewriteRule ^metalloizdelya/$ page6515697.html [NC]
+
+RewriteRule ^parkovka$ page6516521.html [NC]
+RewriteRule ^parkovka/$ page6516521.html [NC]
+
+RewriteRule ^maslo$ page5212344.html [NC]
+RewriteRule ^maslo/$ page5212344.html [NC]
+
+RewriteRule ^houmepagehousemarket$ page7162701.html [NC]
+RewriteRule ^houmepagehousemarket/$ page7162701.html [NC]
+
+RewriteRule ^zhanibekovahousemarket$ page7171199.html [NC]
+RewriteRule ^zhanibekovahousemarket/$ page7171199.html [NC]
+
+RewriteRule ^techokart$ page7395774.html [NC]
+RewriteRule ^techokart/$ page7395774.html [NC]
+
+RewriteRule ^instakurs$ page7367028.html [NC]
+RewriteRule ^instakurs/$ page7367028.html [NC]
+
+RewriteRule ^tenden$ page6121402.html [NC]
+RewriteRule ^tenden/$ page6121402.html [NC]
+
+RewriteRule ^dijuinterior$ page7431199.html [NC]
+RewriteRule ^dijuinterior/$ page7431199.html [NC]
+
+RewriteRule ^britishblue$ page7538599.html [NC]
+RewriteRule ^britishblue/$ page7538599.html [NC]
+
+RewriteRule ^scandinavianfusion$ page7538767.html [NC]
+RewriteRule ^scandinavianfusion/$ page7538767.html [NC]
+
+RewriteRule ^labnails$ page7539184.html [NC]
+RewriteRule ^labnails/$ page7539184.html [NC]
+
+RewriteRule ^domapub$ page7539804.html [NC]
+RewriteRule ^domapub/$ page7539804.html [NC]
+
+RewriteRule ^jazzbarbershop$ page7540244.html [NC]
+RewriteRule ^jazzbarbershop/$ page7540244.html [NC]
+
+RewriteRule ^kurieralmaty$ page7763993.html [NC]
+RewriteRule ^kurieralmaty/$ page7763993.html [NC]
+
+RewriteRule ^kurierkaraganda$ page7867931.html [NC]
+RewriteRule ^kurierkaraganda/$ page7867931.html [NC]
+
+RewriteRule ^mainpage$ page7813105.html [NC]
+RewriteRule ^mainpage/$ page7813105.html [NC]
+
+RewriteRule ^vision$ page8814679.html [NC]
+RewriteRule ^vision/$ page8814679.html [NC]
+
+RewriteRule ^astana_vision$ page9195569.html [NC]
+RewriteRule ^astana_vision/$ page9195569.html [NC]
+
+RewriteRule ^astana_vision_kz$ page9332174.html [NC]
+RewriteRule ^astana_vision_kz/$ page9332174.html [NC]
+
+RewriteRule ^instagram_kurs$ page9262423.html [NC]
+RewriteRule ^instagram_kurs/$ page9262423.html [NC]
+
+RewriteRule ^kz$ page5148750.html [NC]
+RewriteRule ^kz/$ page5148750.html [NC]
+
+RewriteRule ^members/ ma_start.html [NC]
+
+RewriteRule ^favicon.ico$ https://static.tildacdn.com/tild3965-6531-4966-b637-323733626430/logo_zig_zag_b.png [R=302,L]
+

@@ -327,7 +327,24 @@ phoneInput.addEventListener('keydown', function(event) {
     border-radius: 4px;
     background: #FFFFFF;
     border-radius: 4px;
+    color:  #000 !important;
+     
+     width: 220px;
+   
+     background: transparent;
+     z-index: 0;
+    border:none;
+ 
+     -webkit-user-select: none;
+ -moz-user-select: -moz-none;
+ -ms-user-select: none;
+  user-select: none;
+ 
+ -webkit-appearance: none;
+ -moz-appearance: radio-container;
+  appearance: none;
         }
+
     .background{
         background-color: rgba(53, 51, 51, 0.6) ;
         display: none;
@@ -533,36 +550,14 @@ phoneInput.addEventListener('keydown', function(event) {
      margin-bottom: 10px;
     }
     
-    
-    #select{
-        color:  #C4C4C4 !important;
-     
-        width: 220px;
-        /* padding-right: 20px; */
-        background: transparent;
-        z-index: 0;
-       border:none;
-    
-        -webkit-user-select: none;
-    -moz-user-select: -moz-none;
-    -ms-user-select: none;
-     user-select: none;
-    
-    -webkit-appearance: none;
-    -moz-appearance: radio-container;
-     appearance: none;
-    
-    }
-    
-    
-    
+   
     .selected_label{
-        /* padding-left: 8px; */
+       
         font-style: normal;
     font-weight: normal;
     font-size: 13px;
     line-height: 15px;
-    margin-right: 20px;
+
     color: #60B6CC;
     }
     
@@ -602,21 +597,21 @@ phoneInput.addEventListener('keydown', function(event) {
     }
     
     #norember_call__input{
-     margin-top: 2px;
+     margin-top: 4px;
     border: none; 
     font-size: 14px;
     line-height: 16px;
     
     }
     
-    @media(max-width: 600px){
+    @media(max-width: 400px){
         .main{
-            width: 230px;
-         
+            width: 100vw;
+            
         margin: -140px 0 0 -115px;
         padding: 5px;
-        padding-left: 20px;
-    
+         padding-left: 20px; 
+
         }
         .button{
             width: 130px;

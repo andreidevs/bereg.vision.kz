@@ -311,7 +311,12 @@ border-radius: 2px;
     width: 20px;
     height: 20px;
 }
-
+input:focus{
+    outline: none; 
+}
+#select:focus{
+    outline: none; 
+}
 
 input[type=checkbox]:checked + label {
     color: #60B6CC;
@@ -343,7 +348,6 @@ border-radius: 2px;
 
 }
 
-
 .checkbox{
     display: flex;
     margin-left: 20px;
@@ -370,7 +374,7 @@ font-weight: normal;
 font-size: 14px;
 line-height: 16px;
 
-color: #C4C4C4;
+color: #000;
 
 }
 .button{
@@ -479,16 +483,17 @@ line-height: 16px;
 
 @media(max-width: 400px){
     .main{
-        width: 100vw;
         
-    margin: -140px 0 0 -115px;
-    padding: 5px;
-     padding-left: 20px; 
+    width: 100vw;
+    margin: -50vw 0 0 -50vw;
+    
+     min-height: 20vh;
+     padding-bottom: 10px;
 
     }
     .button{
-        width: 130px;
-        font-size: 10px;
+        width: 80%;
+        
         margin-bottom: 5px;
 
     }
@@ -499,40 +504,40 @@ line-height: 16px;
         margin-left: 5px;
     }
     .input__text{
-        width: 180px;
-        font-size: 9px;
+        width: 90%;
+        
         margin-left: 5px;
         padding: 2px;
         height: 30px;
     }
     .selected{
-        font-size: 12px;
+        font-size: 14px;
 
     }
     .check3{
-        font-size: 8px !important;
+        font-size: 12px !important;
         margin: 0 auto;
         padding: 0;
         margin-bottom: 5px;
-        width: 100%;
-         padding-right: 5px;
+        width: 110%;
+         padding-right: 10px;
 
     }
     .selected{
         margin-left: 5px;
         padding-left: 1px;
-        width: 180px;
-        font-size: 10px;
+        width: 100%;
+        font-size: 14px;
         background: url('./Chevron.png') 48% 50% no-repeat,
-  url('./Line.png') 54% 50% no-repeat;
+  url('./Line.png') 51% 50% no-repeat;
 
  background-size: 8px, 1px;
     }
     .selected2{
         padding-left: 1px;
         margin-left: 5px;
-        width: 180px;
-        font-size: 10px;
+        width: 100%;
+        font-size: 12px;
         background: url('./Chevron.png') 95% 50% no-repeat;
 
         background-size: 8px;
@@ -542,29 +547,30 @@ line-height: 16px;
     }
     #select{
         margin-left: 5px;
-        width: 180px;
-        font-size: 9px;
+        width: 50%;
+      
         height: 30px;
 
     }
-    .selected_label{
-        font-size: 9px;
-       
-    }
+    
     .noremeber_call{
         padding-left: 1px;
         margin-left: 5px;
-        width: 180px;
-        font-size: 9px;
+        width: 100%;
+        
         height: 30px;
     
     }
     .noremeber_call span{
-        font-size: 8px;
-        width: 50%;
+       
+        width: 57%;
+        font-size: 10px;
+    }
+    .check3 + label::before{
+        width: 15%;
     }
     #norember_call__input{
-        font-size: 9px;
+       font-size: 13px;
         margin-top: -2px;
     }
     .input[type=checkbox] {
@@ -573,7 +579,7 @@ line-height: 16px;
     }
     .checkbox label{
        
-        font-size: 10px;
+        font-size: 12px;
     }
     .checkbox{
         margin-left: 0;
@@ -588,6 +594,7 @@ line-height: 16px;
 }
 
         </style>
+
 
         <script>
             let remember = document.querySelector('#remember'),
